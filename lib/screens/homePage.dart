@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
     user = _auth.currentUser;
   }
 
+  // ignore: unused_element
   Future _signOut() async {
     await _auth.signOut();
   }

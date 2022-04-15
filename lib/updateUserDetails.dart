@@ -17,6 +17,7 @@ class _UpdateUserDetailsState extends State<UpdateUserDetails> {
   FocusNode f1;
   FirebaseAuth _auth = FirebaseAuth.instance;
   User user;
+  // ignore: non_constant_identifier_names
   String UserID;
 
   Future<void> _getUser() async {
@@ -67,6 +68,7 @@ class _UpdateUserDetailsState extends State<UpdateUserDetails> {
                   .doc(UserID)
                   .snapshots(),
               builder: (context, snapshot) {
+                // ignore: unused_local_variable
                 var userData = snapshot.data;
                 return Container(
                   margin: EdgeInsets.symmetric(horizontal: 15),
@@ -131,7 +133,6 @@ class _UpdateUserDetailsState extends State<UpdateUserDetails> {
     if (widget.field.compareTo('name') == 0) {
       await user.updateProfile(displayName: _textcontroller.text);
     }
-    if (widget.field.compareTo('phone') == 0) {
-    }
+    if (widget.field.compareTo('phone') == 0) {}
   }
 }

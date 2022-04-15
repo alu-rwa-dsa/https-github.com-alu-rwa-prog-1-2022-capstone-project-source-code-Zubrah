@@ -4,6 +4,7 @@ import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:health_and_doctor_appointment/screens/register.dart';
 
+// ignore: unused_import
 import '../mainPage.dart';
 
 class SignIn extends StatefulWidget {
@@ -28,20 +29,28 @@ class _SignInState extends State<SignIn> {
       backgroundColor: Colors.white,
       key: _scaffoldKey,
       body: Builder(builder: (BuildContext context) {
-        return SafeArea(
-          child: NotificationListener<OverscrollIndicatorNotification>(
-            onNotification: (OverscrollIndicatorNotification overscroll) {
-              overscroll.disallowGlow();
-              return;
-            },
-            child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  Container(
-                    padding: EdgeInsets.fromLTRB(10, 30, 10, 10),
-                    child: withEmailPassword(),
-                  ),
-                ],
+        return Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/image-medical.jpg"),
+              fit: BoxFit.cover,
+            ),
+          ),
+          child: SafeArea(
+            child: NotificationListener<OverscrollIndicatorNotification>(
+              onNotification: (OverscrollIndicatorNotification overscroll) {
+                overscroll.disallowGlow();
+                return;
+              },
+              child: SingleChildScrollView(
+                child: Column(
+                  children: <Widget>[
+                    Container(
+                      padding: EdgeInsets.fromLTRB(10, 30, 10, 10),
+                      child: withEmailPassword(),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -60,29 +69,30 @@ class _SignInState extends State<SignIn> {
           children: <Widget>[
             SizedBox(
               width: double.infinity,
+              height: MediaQuery.of(context).size.height * 0.3,
               child: Container(
                 child: Image.asset(
-                  'assets/vector-doc2.jpg',
-                  scale: 3.5,
+                  'assets/images/Afyachatslogo.png',
+                  scale: 3,
                 ),
               ),
             ),
             SizedBox(
-              height: 10,
+              height: 3,
             ),
             Container(
               padding: EdgeInsets.only(bottom: 25),
               child: Text(
-                'Login',
-                style: GoogleFonts.lato(
+                'Welcome back!',
+                style: GoogleFonts.ubuntu(
                   fontSize: 30,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.normal,
                 ),
               ),
             ),
             TextFormField(
               focusNode: f1,
-              style: GoogleFonts.lato(
+              style: GoogleFonts.ubuntu(
                 fontSize: 18,
                 fontWeight: FontWeight.w800,
               ),
@@ -97,7 +107,7 @@ class _SignInState extends State<SignIn> {
                 filled: true,
                 fillColor: Colors.grey[350],
                 hintText: 'Email',
-                hintStyle: GoogleFonts.lato(
+                hintStyle: GoogleFonts.ubuntu(
                   color: Colors.black26,
                   fontSize: 18,
                   fontWeight: FontWeight.w800,
@@ -123,7 +133,7 @@ class _SignInState extends State<SignIn> {
             ),
             TextFormField(
               focusNode: f2,
-              style: GoogleFonts.lato(
+              style: GoogleFonts.ubuntu(
                 fontSize: 18,
                 fontWeight: FontWeight.w800,
               ),
@@ -138,7 +148,7 @@ class _SignInState extends State<SignIn> {
                 filled: true,
                 fillColor: Colors.grey[350],
                 hintText: 'Password',
-                hintStyle: GoogleFonts.lato(
+                hintStyle: GoogleFonts.ubuntu(
                   color: Colors.black26,
                   fontSize: 18,
                   fontWeight: FontWeight.w800,
@@ -164,7 +174,7 @@ class _SignInState extends State<SignIn> {
                   focusNode: f3,
                   child: Text(
                     "Sign In",
-                    style: GoogleFonts.lato(
+                    style: GoogleFonts.ubuntu(
                       color: Colors.white,
                       fontSize: 18.0,
                       fontWeight: FontWeight.bold,
@@ -248,7 +258,7 @@ class _SignInState extends State<SignIn> {
                   children: [
                     Text(
                       "Don't have an account?",
-                      style: GoogleFonts.lato(
+                      style: GoogleFonts.ubuntu(
                         fontSize: 15.0,
                         fontWeight: FontWeight.w700,
                       ),
@@ -260,10 +270,10 @@ class _SignInState extends State<SignIn> {
                       onPressed: () => _pushPage(context, Register()),
                       child: Text(
                         'Signup here',
-                        style: GoogleFonts.lato(
+                        style: GoogleFonts.ubuntu(
                           fontSize: 15,
                           color: Colors.indigo[700],
-                          fontWeight: FontWeight.w600,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),

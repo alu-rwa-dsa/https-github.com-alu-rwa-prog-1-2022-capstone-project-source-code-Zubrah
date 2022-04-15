@@ -33,6 +33,7 @@ class _BookingScreenState extends State<BookingScreen> {
   TimeOfDay currentTime = TimeOfDay.now();
   String timeText = 'Select Time';
   String dateUTC;
+  // ignore: non_constant_identifier_names
   String date_Time;
 
   FirebaseAuth _auth = FirebaseAuth.instance;

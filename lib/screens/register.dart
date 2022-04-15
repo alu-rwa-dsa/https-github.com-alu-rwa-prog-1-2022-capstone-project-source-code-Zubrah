@@ -25,6 +25,7 @@ class _RegisterState extends State<Register> {
   FocusNode f3 = new FocusNode();
   FocusNode f4 = new FocusNode();
 
+  // ignore: unused_field
   bool _isSuccess;
 
   @override
@@ -38,21 +39,29 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
-        child: Center(
-          child: NotificationListener<OverscrollIndicatorNotification>(
-            onNotification: (OverscrollIndicatorNotification overscroll) {
-              overscroll.disallowGlow();
-              return;
-            },
-            child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[
-                  Container(
-                    padding: EdgeInsets.fromLTRB(10, 40, 10, 10),
-                    child: _signUp(),
-                  ),
-                ],
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/image-medical.jpg"),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SafeArea(
+          child: Center(
+            child: NotificationListener<OverscrollIndicatorNotification>(
+              onNotification: (OverscrollIndicatorNotification overscroll) {
+                overscroll.disallowGlow();
+                return;
+              },
+              child: SingleChildScrollView(
+                child: Column(
+                  children: <Widget>[
+                    Container(
+                      padding: EdgeInsets.fromLTRB(10, 40, 10, 10),
+                      child: _signUp(),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -75,8 +84,8 @@ class _RegisterState extends State<Register> {
             Container(
               padding: EdgeInsets.only(bottom: 50),
               child: Text(
-                'Sign up',
-                style: GoogleFonts.lato(
+                'Welcome to Afyachats!',
+                style: GoogleFonts.ubuntu(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                 ),
@@ -84,7 +93,7 @@ class _RegisterState extends State<Register> {
             ),
             TextFormField(
               focusNode: f1,
-              style: GoogleFonts.lato(
+              style: GoogleFonts.ubuntu(
                 fontSize: 18,
                 fontWeight: FontWeight.w800,
               ),
@@ -120,7 +129,7 @@ class _RegisterState extends State<Register> {
             ),
             TextFormField(
               focusNode: f2,
-              style: GoogleFonts.lato(
+              style: GoogleFonts.ubuntu(
                 fontSize: 18,
                 fontWeight: FontWeight.w800,
               ),

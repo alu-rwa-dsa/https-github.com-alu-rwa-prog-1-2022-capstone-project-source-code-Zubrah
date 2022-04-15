@@ -16,6 +16,7 @@ class UserProfile extends StatefulWidget {
 }
 
 class _UserProfileState extends State<UserProfile> {
+  // ignore: unused_field
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   FirebaseAuth _auth = FirebaseAuth.instance;
   User user;

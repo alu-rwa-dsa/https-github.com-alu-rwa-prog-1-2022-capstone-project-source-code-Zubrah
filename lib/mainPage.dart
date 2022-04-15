@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:ui';
+// ignore: unused_import
 import 'package:health_and_doctor_appointment/firestore-data/searchList.dart';
+import 'package:health_and_doctor_appointment/screens/chatbot_screen.dart';
 import 'package:health_and_doctor_appointment/screens/homePage.dart';
 import 'package:health_and_doctor_appointment/screens/myAppointments.dart';
 import 'package:health_and_doctor_appointment/screens/userProfile.dart';
@@ -11,6 +13,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:typicons_flutter/typicons_flutter.dart';
+// ignore: unused_import
 import 'package:quick_actions/quick_actions.dart';
 
 class MainPage extends StatefulWidget {
@@ -23,6 +26,7 @@ class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
   List<Widget> _pages = [
     HomePage(),
+    ChatbotScreen(),
     DoctorsList(),
     //Center(child: Text('New Appointment')),
     MyAppointments(),
@@ -36,6 +40,7 @@ class _MainPageState extends State<MainPage> {
     user = _auth.currentUser;
   }
 
+  // ignore: unused_element
   _navigate(Widget screen) {
     Navigator.of(context).push(MaterialPageRoute(builder: (_) => screen));
   }
@@ -96,25 +101,32 @@ class _MainPageState extends State<MainPage> {
                 ),
                 tabs: [
                   GButton(
-                    iconSize: _selectedIndex != 0 ? 28 : 25,
+                    iconSize: _selectedIndex != 0 ? 15 : 20,
                     icon: _selectedIndex == 0
                         ? FlutterIcons.home_fou
                         : FlutterIcons.home_variant_outline_mco,
                     text: 'Home',
                   ),
                   GButton(
+                    iconSize: 20,
+                    icon: _selectedIndex == 4
+                        ? FlutterIcons.chat_mco
+                        : FlutterIcons.chat_mco,
+                    text: 'Chatbot',
+                  ),
+                  GButton(
                     icon: FlutterIcons.search1_ant,
                     text: 'Search',
                   ),
                   GButton(
-                    iconSize: 28,
+                    iconSize: 20,
                     icon: _selectedIndex == 2
                         ? Typicons.calendar
                         : Typicons.calendar_outline,
                     text: 'Schedule',
                   ),
                   GButton(
-                    iconSize: 29,
+                    iconSize: 20,
                     icon: _selectedIndex == 3
                         ? Typicons.user
                         : Typicons.user_outline,
