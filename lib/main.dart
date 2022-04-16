@@ -14,6 +14,11 @@ import 'package:health_and_doctor_appointment/screens/userProfile.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+// -------------------------------------------
+//gitinore files to be added
+//android/app/google-services.json
+//ios/Runner/GoogleService-Info.plist
+// --------------------------------------------
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

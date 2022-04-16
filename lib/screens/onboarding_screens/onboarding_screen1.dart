@@ -23,7 +23,7 @@ class _OnBoardState extends State<OnBoard> {
       button: Colors.white,
     ),
     OnboardModel(
-      img: 'assets/images/img-1.png',
+      img: 'assets/doc.png',
       text: "How to Use the App",
       desc:
           "After Signing in to the dashboard, you can start asking questions by any word indicating a greeting!, For example, word like Hi, Hello ,Through that you can then start interacting with the bot. For health-related information",
@@ -31,7 +31,7 @@ class _OnBoardState extends State<OnBoard> {
       button: Color(0xFF4756DF),
     ),
     OnboardModel(
-      img: 'assets/images/img-3.png',
+      img: 'assets/images/doctorv.webp',
       text: "Glimpes of information you can Access!",
       desc:
           "You can access the information you need by asking the bot and information around symptoms of diseases,medications and possible advices on various aspects of health can be provided.It does not provide consultations or replace existing medical practices but rather aid them.",
@@ -39,7 +39,7 @@ class _OnBoardState extends State<OnBoard> {
       button: Color(0xFF4756DF),
     ),
     OnboardModel(
-      img: 'assets/images/img-3.png',
+      img: 'assets/images/covid-bg.png',
       text: "Let's get you started!!",
       desc: "",
       bg: Colors.white,

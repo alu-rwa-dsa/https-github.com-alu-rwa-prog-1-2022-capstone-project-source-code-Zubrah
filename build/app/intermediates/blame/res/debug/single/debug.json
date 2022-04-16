@@ -96,6 +96,10 @@
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/086ae226c57fd40f568905c7e86511a2/play-services-base-17.1.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/086ae226c57fd40f568905c7e86511a2/play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
@@ -116,6 +120,10 @@
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/28e91832122b5dc7de235c04c0b3d0d2/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/28e91832122b5dc7de235c04c0b3d0d2/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -134,6 +142,10 @@
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/086ae226c57fd40f568905c7e86511a2/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -158,6 +170,10 @@
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/28e91832122b5dc7de235c04c0b3d0d2/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
@@ -200,6 +216,10 @@
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/086ae226c57fd40f568905c7e86511a2/play-services-base-17.1.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/zubrah_/.gradle/caches/transforms-2/files-2.1/28e91832122b5dc7de235c04c0b3d0d2/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
@@ -214,6 +234,10 @@
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable_launch_image.png.flat",
         "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable/launch_image.png"
+    },
+    {
+        "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
