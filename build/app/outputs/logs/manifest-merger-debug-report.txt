@@ -145,7 +145,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/zubr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/zubrah_/.gradle/caches/transforms-2/files-2.1/28e91832122b5dc7de235c04c0b3d0d2/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:11:9-33
+		ADDED from /Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:11:9-34
 	android:icon
 		ADDED from /Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:12:9-43
 	android:name

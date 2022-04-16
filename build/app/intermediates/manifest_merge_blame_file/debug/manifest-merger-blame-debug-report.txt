@@ -40,8 +40,8 @@
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
 30-->/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:12:9-43
-31        android:label="Medic.ly" >
-31-->/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:11:9-33
+31        android:label="Afyachats" >
+31-->/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:11:9-34
 32        <activity
 32-->/Users/zubrah_/Desktop/New folder/Health_and_Doctor_Appointment/android/app/src/main/AndroidManifest.xml:13:9-41:20
 33            android:name="com.example.health_and_doctor_appointment.MainActivity"
