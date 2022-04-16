@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:health_and_doctor_appointment/screens/onboarding_screens/onboarding_screen1.dart';
+import 'package:health_and_doctor_appointment/screens/onboarding_screens/onboarding_screen_sw.dart';
+// ignore: unused_import
 import 'package:health_and_doctor_appointment/screens/register.dart';
+// ignore: unused_import
 import 'package:health_and_doctor_appointment/screens/signIn.dart';
 
 class FireBaseAuth extends StatefulWidget {
@@ -46,7 +50,7 @@ class _FireBaseAuthState extends State<FireBaseAuth> {
                           fontWeight: FontWeight.w700),
                     ),
                     Text(
-                      'Welcome to Medico!',
+                      'Welcome to Afyachats!',
                       style: GoogleFonts.b612(
                           color: Colors.indigo[800],
                           fontSize: 17,
@@ -80,20 +84,19 @@ class _FireBaseAuthState extends State<FireBaseAuth> {
                             height: 50.0,
                             child: ElevatedButton(
                               child: Text(
-                                "Sign in",
+                                "English ",
                                 style: GoogleFonts.lato(
                                   color: Colors.white,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              onPressed: () => _pushPage(context, SignIn()),
+                              onPressed: () => _pushPage(context, OnBoard()),
                               style: ElevatedButton.styleFrom(
                                 elevation: 2,
                                 primary: Colors.indigo[800],
                                 onPrimary: Colors.indigo[800],
                                 shape: RoundedRectangleBorder(
-                                  
                                   borderRadius: BorderRadius.circular(32.0),
                                 ),
                               ),
@@ -109,20 +112,19 @@ class _FireBaseAuthState extends State<FireBaseAuth> {
                             height: 50.0,
                             child: ElevatedButton(
                               child: Text(
-                                "Create an Account",
+                                "Swahili",
                                 style: GoogleFonts.lato(
                                   color: Colors.black,
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              onPressed: () => _pushPage(context, Register()),
+                              onPressed: () => _pushPage(context, OnBoardswa()),
                               style: ElevatedButton.styleFrom(
                                 elevation: 2,
                                 primary: Colors.white,
                                 onPrimary: Colors.white,
                                 shape: RoundedRectangleBorder(
-                                  
                                   borderRadius: BorderRadius.circular(32.0),
                                 ),
                               ),

@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		1ZVlJj6A17yxY6T98LbKheAFJ9k=
+		si7BnM/+OI6Ji5Xe4zJzFPuUnMM=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -100,6 +100,10 @@
 		<data>
 		+fhGHSyVet1KYH2f0YATtY4ddZg=
 		</data>
+		<key>flutter_assets/assets/icons/icon_foreground.png</key>
+		<data>
+		ZYYpQZzIMypqh2UTTsPz8EWGQvw=
+		</data>
 		<key>flutter_assets/assets/image-medical-2.jpg</key>
 		<data>
 		813/6su/gvcXDJM1OKZE60i9VX8=
@@ -115,6 +119,14 @@
 		<key>flutter_assets/assets/images/Afyachatslogo.png</key>
 		<data>
 		+fhGHSyVet1KYH2f0YATtY4ddZg=
+		</data>
+		<key>flutter_assets/assets/images/covid-bg.png</key>
+		<data>
+		o0K0V+3SKFEq0HaT6B6nS+xu9hM=
+		</data>
+		<key>flutter_assets/assets/images/doctorv.webp</key>
+		<data>
+		4HVWzVzZZLwz8SIfZFsTji718yY=
 		</data>
 		<key>flutter_assets/assets/images/img-1.png</key>
 		<data>
@@ -178,7 +190,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		rs9QxTod3h/oAJ+8EnNetFgsBwQ=
+		pyuWRPfHzjQMI1wihTcunmSbZbY=
 		</data>
 		<key>flutter_assets/packages/cool_alert/assets/flare/error_check.flr</key>
 		<data>
@@ -299,11 +311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ZVlJj6A17yxY6T98LbKheAFJ9k=
+			si7BnM/+OI6Ji5Xe4zJzFPuUnMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ULJhogVFKVy/f1S5BVuOakaIFGB29IhNb5YS7oTfR8Y=
+			MjbKTaNzCwyoAtxOGZTF2VFnPSJJ0iXTXJOH/yFwx+k=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -537,6 +549,17 @@
 			NOBL1lry9Jt7bgP9lQuFaT9aduvElbRQtGaqT6kUX68=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/icons/icon_foreground.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZYYpQZzIMypqh2UTTsPz8EWGQvw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2G0CEMSoVlhFnymGfkBasOkMpwPr39EhGNEb02M+FTo=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/image-medical-2.jpg</key>
 		<dict>
 			<key>hash</key>
@@ -579,6 +602,28 @@
 			<key>hash2</key>
 			<data>
 			NOBL1lry9Jt7bgP9lQuFaT9aduvElbRQtGaqT6kUX68=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/covid-bg.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o0K0V+3SKFEq0HaT6B6nS+xu9hM=
+			</data>
+			<key>hash2</key>
+			<data>
+			+ZIFwPGTLlPx/0ZHC5LDb6dxBKjo1ksNE2rdxg6GJdw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/doctorv.webp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4HVWzVzZZLwz8SIfZFsTji718yY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6VZfqe9GOXbH5o1nXfdG+AnqEOq8C5nOH75LaW/IRpk=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/img-1.png</key>
@@ -750,11 +795,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rs9QxTod3h/oAJ+8EnNetFgsBwQ=
+			pyuWRPfHzjQMI1wihTcunmSbZbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			mUFlHscyRHU6FEx37uBcXT5Dg5N1M4/eZp4xzG4cIRM=
+			xkHA6jR6Ipq3rhI96zCmE70UNiFwL7C5dWV9fnxpwco=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cool_alert/assets/flare/error_check.flr</key>

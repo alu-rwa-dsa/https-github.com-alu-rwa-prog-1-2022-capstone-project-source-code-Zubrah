@@ -3,10 +3,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:health_and_doctor_appointment/screens/chatbot_screen.dart';
 import 'package:health_and_doctor_appointment/screens/doctorProfile.dart';
-// ignore: unused_import
-import 'package:health_and_doctor_appointment/screens/firebaseAuth.dart';
 import 'package:health_and_doctor_appointment/mainPage.dart';
+import 'package:health_and_doctor_appointment/screens/firebaseAuth.dart';
 import 'package:health_and_doctor_appointment/screens/myAppointments.dart';
+// ignore: unused_import
 import 'package:health_and_doctor_appointment/screens/onboarding_screens/onboarding_screen1.dart';
 // ignore: unused_import
 import 'package:health_and_doctor_appointment/screens/skip.dart';
@@ -45,8 +45,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
-        '/': (context) => user == null ? OnBoard() : MainPage(),
-        '/login': (context) => OnBoard(),
+        '/': (context) => user == null ? FireBaseAuth() : MainPage(),
+        '/login': (context) => FireBaseAuth(),
         '/home': (context) => MainPage(),
         '/profile': (context) => UserProfile(),
         '/MyAppointments': (context) => MyAppointments(),
